@@ -27,6 +27,9 @@ from astrodynx.twobody._path_check import (
     pass_perigee,
     rp_islower_rmin,
 )
+from astrodynx.twobody._lambert import (
+    solve_lambert,
+)
 
 __all__ = [
     "lagrange_F",
@@ -50,4 +53,5 @@ __all__ = [
     "is_short_way",
     "pass_perigee",
     "rp_islower_rmin",
+    "solve_lambert",
 ]

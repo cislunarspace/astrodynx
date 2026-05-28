@@ -40,6 +40,7 @@ from astrodynx.twobody._orb_elements import (
     right_ascension,
     argument_of_periapsis,
 )
+from astrodynx.twobody._lambert import solve_lambert
 
 
 from astrodynx import events, gravity, utils, prop
@@ -75,6 +76,7 @@ __all__ = [
     "true_anomaly",
     "right_ascension",
     "argument_of_periapsis",
+    "solve_lambert",
     "events",
     "gravity",
     "twobody",
